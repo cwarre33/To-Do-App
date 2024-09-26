@@ -1,0 +1,234 @@
+/* General styles */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #2b1a1a; /* Dark brown undertone */
+    color: #ffcccb; /* Light pastel pink for text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    background-color: #ffcccb; /* Light pastel pink background */
+    color: #2b1a1a; /* Dark brown text */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 0 0 8px #ffcccb;
+}
+
+#nav-bar {
+    background-color: #f8d7e0; /* Light pastel pink */
+    padding: 10px;
+    border-bottom: 2px solid #4e3b31; /* Dark brown */
+}
+
+#nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+#nav-links li {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#nav-links li:hover {
+    background-color: #e1a9b3; /* Slightly darker pink */
+}
+
+
+/* Container for sections */
+.container {
+    background: #ffefee; /* Softer pastel background */;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 204, 203, 0.5); /* Glowing effect */
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+/* Section Form Styling */
+#section-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#section-form input, #section-form button {
+    padding: 10px;
+    border: 1px solid #2b1a1a;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#section-form input {
+    background-color: #fff;
+    color: #2b1a1a;
+}
+
+#section-form button {
+    background-color: #ffcccb;
+    color: #2b1a1a;
+    transition: 0.3s;
+}
+
+#section-form button:hover {
+    background-color: #f9b8b8; /* Slightly darker pink for hover */
+    box-shadow: 0 0 12px #ffcccb; /* Glow effect on hover */
+}
+
+/* Sections styling */
+.section {
+    background-color: #fff;
+    color: #2b1a1a;
+    border: 1px solid #2b1a1a;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(255, 204, 203, 0.7); /* Glowing on hover */
+}
+
+/* Task Form */
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-form input, .task-form select, .task-form button {
+    padding: 10px;
+    border: 1px solid #2b1a1a;
+    border-radius: 10px;
+}
+
+.task-form button {
+    background-color: #ffcccb;
+    color: #2b1a1a;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.task-form button:hover {
+    background-color: #f9b8b8;
+    box-shadow: 0 0 10px #ffcccb; /* Glow on hover */
+}
+
+/* Task List */
+.task {
+    background-color: #ffefee;
+    color: #2b1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #2b1a1a;
+}
+
+.task.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task button:hover {
+    background-color: #c82333;
+}
+
+/* Search Filter */
+.search-filter {
+    background-color: #ffcccb;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-filter input, .search-filter select {
+    padding: 10px;
+    border: 1px solid #2b1a1a;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-filter select {
+    margin-left: 10px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    .section {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .task {
+        font-size: 14px;
+    }
+
+    .task input, .task button {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .task-form input, .task-form select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .task-form button {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .container, .search-filter {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .task-form {
+        flex-direction: column;
+    }
+}
