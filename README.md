@@ -23,13 +23,13 @@ The styling emphasizes user-friendliness with a pastel pink and brown color pale
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/task-management-app.git
+git clone https://github.com/your-username/To-Do-App.git
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd task-management-app
+cd To-Do-App
 ```
 
 Open the `index.html` file in your preferred browser.
@@ -55,7 +55,9 @@ Open the `index.html` file in your preferred browser.
 - **Task Logic**: The task management logic is located in `app.js`, where you can modify the task creation, deletion, and completion processes.
 
 ## Screenshots
-<!-- Add screenshots here -->
+![Task Management App Screenshot](images/Home.png)
+![To Do Section](images/To-Do-Section.png)
+
 
 ## Contributing
 Contributions are welcome! Feel free to fork this repository and submit a pull request.
