@@ -55,7 +55,11 @@ Open the `index.html` file in your preferred browser.
 - **Task Logic**: The task management logic is located in `app.js`, where you can modify the task creation, deletion, and completion processes.
 
 ## Screenshots
+
+# Home Page
 ![Task Management App Screenshot](images/Home.png)
+
+# To Do Section & Search Bar
 ![To Do Section](images/To-Do-Section.png)
 
 
