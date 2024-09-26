@@ -210,7 +210,7 @@ header h1 {
     }
 
     .task-form input, .task-form select {
-        width: 100%;
+        width: 90%;
         margin-bottom: 10px;
     }
 
@@ -220,12 +220,12 @@ header h1 {
 }
 @media (max-width: 768px) {
     .container, .search-filter {
-        width: 95%;
+        width: 80%;
         flex-direction: column;
     }
 
     .section {
-        width: 100%;
+        width: 90%;
     }
 
     .task-form {
