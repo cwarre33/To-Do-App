@@ -56,10 +56,10 @@ Open the `index.html` file in your preferred browser.
 
 ## Screenshots
 
-# Home Page
+### Home Page
 ![Task Management App Screenshot](images/Home.png)
 
-# To Do Section & Search Bar
+### To Do Section & Search Bar
 ![To Do Section](images/To-Do-Section.png)
 
 
